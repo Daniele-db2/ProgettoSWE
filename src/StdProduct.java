@@ -1,33 +1,3 @@
-//public class StdProduct extends Product implements Visitable {
-//    public int code;
-//    public double cost;
-//    public int consegna;
-//
-//    public StdProduct(int code) {
-//        this.code = code;
-//    }
-//
-//    public void setCost(double c) {
-//        cost = 5 + Math.random() * 45;
-//        cost = Math.floor(cost * 100.0) / 100.0;
-//        System.out.print(cost + "€");
-//    }
-//
-//    public double getCost() {
-//        return cost;
-//    }
-//
-//    public void setConsegna(int cons) {
-//        consegna = 5 + ((int) (Math.random() * 5));
-//    }
-//
-//    @Override
-//    public double accept(Visitor v) {
-//        return v.visit(this);
-//    }
-//
-//}
-
 public class StdProduct implements Visitable,State {
     private int code;
     private double cost;
